@@ -1,0 +1,47 @@
+
+div {
+    padding:10px;
+}
+
+.parent {
+    background-color:teal;
+    color: white;
+    display:flex;
+    border-bottom: 1px solid grey;
+    justify-content: space-between;
+}
+
+.parent div {
+    font-weight: bold;
+}
+
+.parentFlex {
+    display:flex;
+    direction: row;
+    border-bottom: 1px solid grey;
+    justify-content: space-between;
+}
+
+button {
+    background-color: transparent;
+    border: 0.1;
+    color:teal;
+    cursor: pointer;
+    outline: 0;
+}
+
+button:hover {
+    text-decoration-line: underline;
+    font-weight: bold;
+    background-color:lightgray ;
+}
+
+
+.col1{
+    width: 200px;
+    font-weight: bold;
+}
+
+.col2{
+    width: 250px;
+}
